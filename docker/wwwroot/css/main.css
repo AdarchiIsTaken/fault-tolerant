@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.todo-list-enter-active,
+.todo-list-leave-active {
+  transition: all 0.5s ease;
+}
+.todo-list-enter-from,
+.todo-list-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.todo-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 8px;
+    padding: 0;
+}
+
+.todo-list > li {
+    background: #eee;
+    padding-left: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.todo-list .todo-description {
+    width: 100%;
+}
+
+.todo-list .todo-delete {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+
+    background: rgb(5 150 105);
+    flex-shrink: 0;
+    color: #fafafa;
+    cursor: pointer;
+}

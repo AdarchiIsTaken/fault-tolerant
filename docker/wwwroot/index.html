@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body id="app">
+    <form @submit.prevent="addTodo">
+        <input style="width: 100%;" type="text" v-model="todoDescription" placeholder="Tarea a realizar">
+        <input type="submit" value="Agregar tarea">
+    </form>
+    
+
+    <hr>
+
+    <h2>Tareas</h2>
+
+    <transition-group name="todo-list" tag="ul" class="todo-list">
+        <li class="todo" v-for="todo in todos" :key="todo.id">
+            <span class="todo-description">{{ todo.description }}</span>
+            <span class="todo-delete" @click="deleteTodo(todo.id)"><i class="fa-solid fa-check"></i></span>
+        </li>
+    </transition-group>
+</body>
+<script src="https://unpkg.com/vue@3"></script>
+<script src="/js/main.js"></script>
+</html>

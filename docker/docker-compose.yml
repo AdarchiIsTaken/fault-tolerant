@@ -1,0 +1,8 @@
+version: "1.0.1"
+services:
+  todo:
+    build: .
+    image: todo_sample
+    container_name: todo
+    ports:
+      - "3000:80"

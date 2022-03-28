@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "QUYxYVYENX4GpCmjAmxb3Z1Xjgc3aPtBS2wjOGFMOsM=",
+  "Source": "MicroService",
+  "BasePath": "_content/MicroService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MicroService\\wwwroot",
+      "Source": "MicroService",
+      "ContentRoot": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\",
+      "BasePath": "_content/MicroService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\css\\main.css",
+      "SourceId": "MicroService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\",
+      "BasePath": "_content/MicroService",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
+      "Identity": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\index.html",
+      "SourceId": "MicroService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\",
+      "BasePath": "_content/MicroService",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\js\\main.js",
+      "SourceId": "MicroService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\c_oma\\Documents\\classwork\\classwork\\2022-A\\faulttolerant\\docker\\wwwroot\\",
+      "BasePath": "_content/MicroService",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    }
+  ]
+}
