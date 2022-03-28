@@ -1,3 +1,6 @@
+
+## [Demo](https://docker.dev.cbnao.com/)
+
 ## Ejemplo con docker
 
 La aplicacion se creo utilizando Vue.JS para el frontend y .NET 6 para el backend.
@@ -55,9 +58,4 @@ docker-compose up -d
 ```
 
 Esto permitira que ahora sea visible en la ruta `localhost:3000`
-
-
-
-## [Demo](https://docker.dev.cbnao.com/)
-
 
